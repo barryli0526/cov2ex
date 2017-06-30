@@ -1,0 +1,33 @@
+{
+  "name": "cov2ex",
+  "version": "1.0.0",
+  "description": "build v2ex list using koa + redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd app && npm install && npm run build && cd .. && npm install && node app"
+  },
+  "keywords": [
+    "koa",
+    "react",
+    "redux",
+    "v2ex"
+  ],
+  "author": "Barry Li",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-compress": "^2.0.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.2.1",
+    "koa-send": "^4.1.0",
+    "koa2-request": "^1.0.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}

@@ -1,0 +1,55 @@
+.co-box{
+    padding:10px;
+}
+.media {
+    display: flex;
+    align-items: stretch;
+    text-align: left;
+}
+
+.media-left, .media-right {    
+    flex-basis: auto;    
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.media-right{
+    align-self: center;
+}
+
+.image{
+    height: 48px;
+    width: 48px;
+}
+
+.image img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.media-content {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    text-align: left;
+}
+
+.badge{
+    display:inline-block;
+    width:30px;
+    border-radius:12px;
+    text-align: center;
+    color:#fff;
+}
+
+.content{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:100%;
+}

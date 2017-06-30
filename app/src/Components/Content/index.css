@@ -1,0 +1,50 @@
+.co-topic-detail{
+    padding:20px;
+}
+
+.co-topic-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.co-topic-btn {
+  font-size: 11px;
+  line-height: 12px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  border-radius: 15px;
+  text-shadow: 0px 1px 0px #fff;
+}
+
+
+.co-topic-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.topic-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.small-gray {
+  font-size: smaller;
+  color: #999;
+}
+
+.chevron {
+  font-family: "Lucida Grande";
+  font-weight: 500;
+}
+
+.co-topic-footer{
+    background:#ddd;
+    padding:5px 0;
+    margin-top:20px;
+}

@@ -1,0 +1,16 @@
+.v2-navbar{
+ background-color: #fff;
+  text-align: center;
+  height: 44px;
+  font-size: 15px;
+  font-weight: 500;
+  background-size: 44px 44px;
+  border-bottom: 1px solid rgba(0,0,0,.22);
+  padding: 0 20px 0 20px;  
+}
+
+.v2-logo a{
+    display:inline-block;
+    padding-top:7px;
+}
+
